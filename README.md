@@ -1,3 +1,4 @@
+![Tests](https://github.com/inkeiter/saucedemo-ai-e2e/actions/workflows/tests.yml/badge.svg)
 # saucedemo-ai-e2e
 
 Небольшой набор E2E-тестов для учебного сайта [Sauce Demo](https://www.saucedemo.com/),
@@ -117,8 +118,6 @@ Page Object, `conftest.py` и конфигурационные файлы зде
   тест может упасть по причинам, не связанным с вашим кодом.
 - Используется только Chromium.
 - Зависимости заданы минимальными версиями, а не зафиксированы точно.
-- Workflow GitHub Actions настроен, но ещё не запускался,
-  поэтому бейджа статуса CI здесь нет.
 
 ## AI-assisted development
 
