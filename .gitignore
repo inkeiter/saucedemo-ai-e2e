@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+
+# macOS
+.DS_Store

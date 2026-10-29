@@ -1,0 +1,3 @@
+# pytest-playwright installs pytest and playwright as dependencies
+# and provides the `page` fixture used in tests.
+pytest-playwright>=0.7.0
