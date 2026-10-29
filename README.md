@@ -1,3 +1,4 @@
+![Tests](https://github.com/inkeiter/saucedemo-ai-e2e/actions/workflows/tests.yml/badge.svg)
 # saucedemo-ai-e2e
 
 Небольшой E2E-тест для учебного сайта [Sauce Demo](https://www.saucedemo.com/),
