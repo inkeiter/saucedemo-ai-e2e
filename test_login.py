@@ -20,3 +20,17 @@ def test_successful_login(page: Page) -> None:
     # expect() auto-retries until the condition is met or the timeout expires.
     expect(page).to_have_url(re.compile(r"/inventory\.html$"))
     expect(page.locator(".title")).to_have_text("Products")
+
+
+def test_login_with_wrong_password_shows_error(page: Page) -> None:
+    page.goto(BASE_URL)
+
+    page.locator('[data-test="username"]').fill(USERNAME)
+    page.locator('[data-test="password"]').fill("wrong_password")
+    page.locator('[data-test="login-button"]').click()
+
+    # The site shows an error message and keeps the user on the login page.
+    expect(page.locator('[data-test="error"]')).to_have_text(
+        "Epic sadface: Username and password do not match any user in this service"
+    )
+    expect(page).to_have_url(BASE_URL)
