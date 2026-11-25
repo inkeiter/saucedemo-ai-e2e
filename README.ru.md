@@ -1,6 +1,8 @@
 ![Tests](https://github.com/inkeiter/saucedemo-ai-e2e/actions/workflows/tests.yml/badge.svg)
 # saucedemo-ai-e2e
 
+> 🇬🇧 English version: [README.md](README.md)
+
 Небольшой набор E2E-тестов для учебного сайта [Sauce Demo](https://www.saucedemo.com/),
 написанный на Python, Playwright и pytest. Проект также демонстрирует использование AI
 как помощника при создании и проверке автотестов.
